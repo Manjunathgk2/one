@@ -9,10 +9,5 @@ public class demo5 {
         LocalTime t=LocalTime.now(ZoneId.of("Japan"));
        System.out.println(t);
 
-        for(String i:ZoneId.getAvailableZoneIds())
-        {
-            System.out.println(i);
-        }
-
     }
 }
